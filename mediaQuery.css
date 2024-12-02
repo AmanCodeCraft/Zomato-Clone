@@ -71,4 +71,26 @@
         left: 28px;
     }
 
+    /* menu area */
+
+    .menu-1{
+        width: 80%;
+        margin-bottom:30px;
+    }
+
+    .menu-1:hover{
+        transform: none;
+    }
+
+    .content-area>h2{
+        font-size: .9rem;
+    }
+    
+    .content-area>h3{
+        font-size: .8rem;
+    }
+
+    /* collection area */
+
+
 }
