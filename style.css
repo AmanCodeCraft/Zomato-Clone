@@ -167,7 +167,7 @@ a{
 /* collections area */
 
 .collections{
-    padding: 10px 20px;
+    padding: 10px 5px;
     margin-bottom: 10px;
 }
 
@@ -193,11 +193,11 @@ a{
     border-radius: 15px;
     margin: 8px;
     align-items: flex-end;
-   background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(./images/paneer.jpg);
-   background-size: cover;
-   background-position: center;
-   background-repeat: no-repeat;
-   cursor: pointer;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(./images/paneer.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
 }
 
 .links>a{
@@ -208,6 +208,69 @@ a{
     font-weight: 400;
     font-size: 1.5rem;
 }
+
+/* location area */
+
+.location-box{
+    margin-top: 50px;
+}
+
+.location-box>h1{
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.location-card{
+    width: 365px;
+    height: 80px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 2px rgba(125, 115, 115, 0.7);
+    transition: all ease-in .30s;
+    cursor: pointer;
+}
+
+.location-card:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.7);
+}
+
+.sarabha{
+    align-items: center;
+    width: 100%;
+}
+
+.left{
+    margin-left: 15px;
+}
+
+.left>h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.left>p{
+    font-size: 1.2rem;
+    color: rgb(94, 87, 87);
+}
+
+.green{
+    border: 2px solid green;
+}
+
+.location-cards{
+    flex-wrap: wrap;
+}
+
+.right{
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+
 
 
 
