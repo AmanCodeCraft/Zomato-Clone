@@ -1,8 +1,8 @@
 /* mobile Screen */
-@media (min-width: 300px) and (max-width: 480px) {
+@media (max-width: 480px) {
     
     .up-area {
-        height: 85vh; /* Adjust height for mobile devices */
+        height: 65vh; /* Adjust height for mobile devices */
     }
 
     .nav-bar{
@@ -12,7 +12,7 @@
 
     .nav-bar>.left-area>a{
         display: contents;
-        font-size: .8rem;
+        font-size: .9rem;
     }
 
     a{
@@ -31,12 +31,14 @@
     .center-area{
         height: 80vh;
     }
+
     /* Search Area */
     .search-area{
         height: 200px;
         width: 90%;
         background-color: transparent;
         display: block;
+        /* flex-direction: column; */
     }
 
     .mobile-Search-box{
