@@ -156,7 +156,6 @@ a{
 
 .hero-2{
     width: 100%;
-    height: 200vh;
     padding: 25px 8%;
 }
 
@@ -187,6 +186,11 @@ a{
     font-size: 1.3rem;
 }
 
+.dishes{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
 .card1{
     height: 280px;
     width: 320px;
@@ -212,7 +216,7 @@ a{
 /* location area */
 
 .location-box{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .location-box>h1{
@@ -254,7 +258,7 @@ a{
 
 .left>p{
     font-size: 1.2rem;
-    color: rgb(94, 87, 87);
+    color: rgb(95, 91, 91);
 }
 
 .green{
@@ -270,7 +274,144 @@ a{
     font-size: 1rem;
 }
 
+/* zomato app area */
+.zomato-app-area{
+    background-color: rgba(202, 144, 144, 0.1);
+    justify-content: center;
+    margin-top: 6%;
+    border-radius: 20px;
+}
 
+.mobile-pic{
+    width: 400px;
+    height: 100%;
+}
 
+.pho-pic{
+    width: 400px;
+}
 
+.pho-img{
+    width: 100%;
+}
 
+.login-form{
+    width: 55%;
+    height: 520px;
+    padding: 20px;
+}
+
+.login-form>h1{
+    display: inline-block;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.login-form>h3{
+    color: rgb(65, 60, 60);
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.radio-btns{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: rgb(77, 68, 68);
+}
+
+.radio-btns>input{
+    margin: 10px;
+}
+
+.mid-part{
+    margin: 30px 0px;
+    justify-content: flex-start;
+}
+
+.mid-part>input{
+    outline: none;
+    height: 45px;
+    width: 340px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    border: 1px solid rgb(199, 191, 191);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.mid-part>input:hover{
+    border-color: red;
+}
+
+.link-btn{
+    margin-left:5px;
+    width: 170px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 300;
+    cursor: pointer;
+    background-color: rgb(251, 72, 72);
+}
+
+.link-btn:hover{
+    opacity: .8;
+}
+
+.login-form>p{
+    font-size: 1.2rem;
+    color: rgb(83, 81, 81);
+    margin-bottom: 10px;
+}
+
+.img-links>a>img{
+    width: 130px;
+}
+/* options area start */
+
+.options-area{
+    width: 100%;
+}
+
+/* footer area */
+
+.footer-section{
+    padding: 0px 8%;
+}
+
+ul>li>a,.copy-right{
+    color: rgb(122, 116, 116);
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+.left-logo,.right-logo{
+    height: 50px;
+    width: 400px;
+    margin: 50px 0px;
+}
+
+.black-zomato-pic{
+    width: 150px;
+}
+
+.link-box>ul>p{
+    font-size: 1.5rem;
+    margin: 15px 0px;
+}
+
+.link-box,hr{
+    margin-bottom: 30px;
+}
+
+.copy-right{
+    margin-bottom: 30px;
+    font-size: .96rem;
+}
