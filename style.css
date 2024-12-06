@@ -111,8 +111,8 @@ a{
 }
 
 .menu-1{
-    width: 500px;
-    height: 180px;
+    width: 540px;
+    height: 230px;
     border-radius: 20px;
     transition: all ease .50s;
     border: 2px solid white;
@@ -121,7 +121,7 @@ a{
 
 .menu-1:hover{
     transform: scale(1.1);
-    box-shadow: 2px 2px 25px rgb(36, 29, 29);
+    box-shadow: 0px 0px 5px rgb(36, 29, 29);
 }
 
 .inner-box{
@@ -137,7 +137,7 @@ a{
 }
 
 .content-area{
-    padding: 5px 30px;
+    padding: 15px 20px;
 }
 
 .chol{
@@ -198,7 +198,7 @@ a{
     border-radius: 15px;
     margin: 8px;
     align-items: flex-end;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)), url(./images/paneer.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.9)), url(./images/paneer.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
