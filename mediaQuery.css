@@ -1,83 +1,90 @@
 /* mobile Screen */
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     
     .up-area {
-        height: 65vh; /* Adjust height for mobile devices */
+        height: 70vh; /* Adjust height for mobile devices */
     }
 
     .nav-bar{
-        padding: 15px 15px;
+        padding: 10px 5px;
         width: 100%;
     }
 
     .nav-bar>.left-area>a{
         display: contents;
-        font-size: .9rem;
+        font-size: .85rem;
     }
 
-    a{
-        display:none;
+    .right-area>a{
+        display: none;
     }
 
     .center-area>h1{
-        font-size: 3rem;
-        margin-top: 40px;
+        font-size: 2.5rem;
+        margin-top: 10px;
     }
 
     .center-area>h3{
-        font-size:1.3rem;
+        display: none;
     }
 
     .center-area{
-        height: 80vh;
+        height: 70vh;
+        align-items: center;
+        justify-content: space-between;
     }
 
     /* Search Area */
     .search-area{
-        height: 200px;
+        height: 250px;
         width: 90%;
         background-color: transparent;
         display: block;
-        /* flex-direction: column; */
     }
 
     .mobile-Search-box{
         width: 100%;
         background-color: white;
-        height: 45px;
-        border-radius:10px;
+        height: 35px;
+        border-radius:5px;
         margin: 0px 0px;
-        font-size: 1.2rem;
+        font-size: 1rem;
         margin: 0;
     }
 
     .Sbox1{
-        margin-bottom: 18px;
+        margin-bottom: 0px;
     }
 
     .SameSbox{
-        padding-left: 45px;
+        padding-left: 40px;
     }
 
     .location{
-        display: inline-block;
-        position: absolute;
-        left: 28px;
-        bottom: 43%;
+        position: relative;
+        top: 35px;
+        left: 5px;
     }
 
     .search{
-        display: inline-block;
-        position: absolute;
-        bottom: 30%;
-        left: 28px;
+        position: relative;
+        width: 32px;
+        top: 35px;
+        left: 5px;
     }
 
-    /* menu area */
+    /* hero section */
+
+    .hero-section{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        padding: 5px 10px;
+        justify-content: flex-start;
+    }
 
     .menu-1{
-        width: 80%;
-        margin-bottom:30px;
+       display:block;
+       margin-bottom: 20px;
     }
 
     .menu-1:hover{
@@ -85,13 +92,247 @@
     }
 
     .content-area>h2{
-        font-size: .9rem;
+        font-size: 1rem;
     }
     
     .content-area>h3{
-        font-size: .8rem;
+        font-size: .9rem;
+    }
+
+    .inner-box{
+        width: 100%;
+        height: 75%;
     }
 
     /* collection area */
 
+    .collections{
+        padding: 10px 5px;
+        margin-bottom: 10px;
+    }
+
+    .collection-content>h1{
+        font-size: 2rem;
+        margin-bottom: 2px;
+    }
+
+    .collection-content>h3{
+        font-size: 1.1rem;
+    }
+
+    .right-side-content>a{
+        font-size: 1.2rem;
+    }
+
+
+    .dishes{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+    }
+
+   /* location area */
+
+    .location-box>h1{
+        font-size: 1.7rem;
+    }
+
+    .location-card{
+        width: 250px;
+        height: 70px;
+        margin: 15px 0px;
+    }
+
+    .link-btn{
+        font-size: .7rem;
+    }
+
+    /* link box */
+
+    .link-box>ul>p{
+        font-size: 1.5rem;
+        margin: 5px 0px;
+    }
+
+    .country,.language{
+        display: inline-block;
+        width: 100px;
+        margin: 0;
+        padding: 0;
+        padding-top: 5px;
+        margin-right: 5px;
+    }
+
+    .country,.language{
+        width: 120px;
+        height: 35px;
+        display: inline-flex;
+        margin-left: 20px;
+        border-radius: 8px;
+        font-size: 1rem;
+        padding-left: 10px;
+        padding-top: 2px;
+    }
+
+    .logos{
+        flex-direction: column;
+        width: 80%;
+        flex-wrap:wrap;
+    }
+
+    .left-logo,.right-logo{
+        height: 40px;
+        width: 500px;
+        margin: 10px 0px;
+    }
+
+    .flag-icon{
+        margin-right: 5px;
+        padding-top: 0px;
+        width:20px;
+    }
+
+
+    .globe-icon{
+        width: 15px;
+        margin-right: 5px;
+        margin-top: 0px;
+    }
+
+    .link-box{
+        flex-direction: row;
+        gap: 30px;
+        align-items:flex-start;
+        flex-wrap: wrap;
+    }
+
+    .link-box{
+        gap: 10px;
+    }
 }
+
+
+/* for tablet Screen */
+@media (max-width: 768px) {
+    .center-area>h3{
+        font-size: 1.7rem;
+    }
+
+    .search-area{
+        width: 75%;
+    }
+
+    .hero-section{
+        padding: 20px 10px;
+    }
+
+    .menu-1{
+        width: 330px;
+        height: 270px;
+    }
+
+    .content-area{
+        margin-top: 10px;
+        padding: 5px 20px;
+    }
+
+    .hero-2{
+        padding: 15px 5%;
+    }
+
+    .collections{
+        flex-direction: column;
+    }
+
+    .collection-content>h3{
+        margin-bottom: 10px;
+    }
+
+    .dishes{
+        flex-wrap: nowrap;
+    }
+
+    .links>a{
+        font-size: 1.2rem;
+    }
+
+    .location-box{
+        margin-top: 30px;
+    }
+
+    .location-card{
+        width: 220px;
+    }
+
+    .zomato-app-area{
+        flex-direction: column;
+        margin-top: 2%;
+    }
+
+    .mobile-pic{
+        display: none;
+    }
+
+    .login-form{
+        width: 90%;
+        height: 400px;
+        padding: 10px;
+    }
+
+    .login-form>h1{
+        font-size: 2rem;
+    }
+
+    .login-form>h3{
+        font-size: 1rem;
+    }
+
+    .radio-btns{
+        font-size: 1.2rem;
+    }
+
+    .radio-btns>label{
+        margin-right: 5px;
+    }
+
+    .mid-part>input{
+        width: 300px;
+    }
+
+
+    .location-box{
+        margin-top: 35px;
+    }
+
+    .location-card{
+        width: 100%;
+    }
+
+    .footer-section{
+        margin-top: 20px;
+        padding: 1% 5%;
+    }
+
+    .logos{
+        align-items: center;
+        justify-content:flex-end;
+    }
+
+    .country,.language{
+        display: inline-block;
+        width: 140px;
+        margin: 0;
+        padding: 0;
+        padding-top: 8px;
+        margin-right: 5px;
+    }
+
+    .link-box{
+        flex-direction: row;
+        gap: 80px;
+        align-items:flex-start;
+        flex-wrap: wrap;
+    }
+ }
+
